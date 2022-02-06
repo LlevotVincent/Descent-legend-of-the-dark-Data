@@ -1,0 +1,76 @@
+body{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(44, 44, 44);
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    z-index: 9999;
+    background-color: rgb(34, 34, 34);
+}
+#header{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.header_img{
+    width: 100%;
+    height: auto;
+}
+
+/* ***************************
+************Aside*************
+****************************** */
+
+aside{
+    width: 200px;
+    height: 800px;
+    background-color: black;
+}
+.aside_dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.aside_title{
+    color: white;
+    margin: 0;
+}
+.fa-chevron-up{
+    color: white;
+}
+.fa-chevron-down{
+    color: white;
+}
+#Aside_ChevronUp, #Aside_ChevronDown {
+    position: absolute;
+    right: 18px;
+    color: white;
+}
+.heroLink{
+    margin-left: 30px;
+}
+#heroList{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: white
+}
+#HeroesArray{
+    height: 50px;
+}
+.hidden{
+    visibility: hidden;
+}
+
